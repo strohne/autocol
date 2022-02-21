@@ -13,6 +13,7 @@
 9. **Setup columns:** You can add columns to your nodes view via `Add Column` or `Add All Columns`. Make sure to confirm your selections with `Apply Columns Setup`
 10. **Export data:** Select all nodes and click `Export Data` in the menu bar. Choose a name for the file and save it. 
 
+See the export settings below to prepare for the Python excercises.
 
 ## Exercise: Fetch comments of Facebook posts
 
@@ -28,6 +29,9 @@
 ## Data export
 
 Use the following settings to fetch and export data for the Python excercises:
+
+**Preset:**
+Get Facebook posts
 
 **Fields parameter:**
 ```
