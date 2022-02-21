@@ -11,7 +11,7 @@ Download the repository by clicking Code -> Download ZIP on the GitHub page. We 
 - Install the browser Firefox and/or Chrome. Optionally, you can install the Chrome Plugin for viewing JSON content: https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh
 - Install a text editor with syntax highlighting, for example Notepad++, Atom or Textmate
 
-**Python and Jupyter Lab**
+**Python and Jupyter Lab**  
 If you already have a working Jupyter Lab environment, you can skip this step. Otherwise...
 
 - ...download and install Python directly from the webpage https://www.python.org/downloads/ 
@@ -21,7 +21,7 @@ If you already have a working Jupyter Lab environment, you can skip this step. O
 
 Alternatively, you can use a Python-distribution such as Anaconda: https://www.anaconda.com/products/individual.
 
-**Packages**
+**Packages**  
 During the workshop, we will work with different Python packages. Packages are collections of functions, provided by other developers. 
 To install the packages, you can use pip - a package manager that comes with Python. 
 You need to open your command prompt / terminal (for example, on Windows press the Windows key and search for "cmd"). In the terminal type the following commands: 
@@ -35,7 +35,7 @@ pip install pandas
 ```
 
          
-**Accounts**
+**Accounts**  
 To follow the exercises you will need a Facebook account.
 
 
