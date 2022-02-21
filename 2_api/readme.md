@@ -3,7 +3,7 @@
 1. **Open Facepager**
 2. **New Database:** Create a new database with ```New Database```
 3. **Add nodes:** Via ```Add Nodes``` you can add the handle of one or multiple Facebook pages. The handle is the part of the URL after `http://www.facbeook.com/`, e.g. `aljazeera`)
-4. **Load preset:** Load the preset "2. Get Facebook posts" with all the necessary settings to fetch posts of a Facebook page (click on```Presets```-> **Facebook**). Watch how the module changes in Facebook and the options are set. 
+4. **Load preset:** Click the Presets-Button and load the preset "2. Get Facebook posts" from the Facebook category.  Watch how the settings in the Facebook module changed.
 5. **Authentification:** Go through the login dialoge after clicking on ```Login to Facebook```
 6. **Adjust settings:** You can see all available settings at the documentation of the endpoint. The documentation of a resource can be opened via the ```?``` next to the row of the resource. This leads you to the API Viewer, where you can also find a link to the official documentation. Beware that the documentations of APIs change constantly and that the implemented help is outdatet. 
 7. **Fetch data:** Select your node(s) and click on ```Fetch Data```
