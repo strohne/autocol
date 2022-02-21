@@ -33,6 +33,9 @@ To follow the exercises you need accounts on the following platforms:
 
 In case you struggle with intalling the Software or Libraries, don't hesitate to contact us! We are looking forward to the workshop and collecting data with you using the programs :)  
 
+# Helpful tools
+- Chrome Plugin for JSON content: https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh
+
 # Schedule
 
 Day 1
