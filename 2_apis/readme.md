@@ -11,7 +11,7 @@
 7. **Fetch data:** Select your node(s) and click on `Fetch Data`
 8. **Inspect data:** Expand nodes, review your data in the nodes view (left) and data view (right)
 9. **Setup columns:** You can add columns to your nodes view via `Add Column` or `Add All Columns`. Make sure to confirm your selections with `Apply Columns Setup`
-10. **Export data:** Select all nodes and click `Export Data` in the menu bar. Choose a name for the file and save it. 
+10. **Export data:** Click `Export Data` in the menu bar. Select the option to export all nodes, choose a name for the file and save it. 
 
 See the export settings below to prepare for the Python excercises.
 
