@@ -36,7 +36,7 @@ In case you struggle with intalling the Software or Libraries, don't hesitate to
 # Schedule
 
 Day 1
-- 10:00 – 11:30 Introduction to automated data collection. Techniques (webscraping, APIs, databases), data formats (HTML, CSV, JSON) and endpoints (assembling URLs, access restrictions)
+- 10:00 – 11:30 Introduction to automated data collection.
 - 11:30 – 11:45 Break
 - 11:45 – 13:00 Practical session: Reading API references and using APIs with Facepager. 
 - 13:00 - 14:00 Lunch break
