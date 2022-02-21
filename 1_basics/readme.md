@@ -1,4 +1,4 @@
-# Exercise: Determine Elements of a URL 
+# Exercise: Determine Elements of an URL 
 
 **Task 1:** Go to https://www.instagram.com/aljazeeraenglish/ and add `?__a=1` to the URL. What kind of data format do you see?
 
