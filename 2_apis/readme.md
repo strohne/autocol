@@ -35,7 +35,7 @@ Get Facebook posts
 
 **Fields parameter:**
 ```
-message, from, created_time, updated_time,comments.limit(0).summary(1), reactions.limit(0).summary(1), reactions.type(LIKE).limit(0).summary(1).as(like), reactions.type(LOVE).limit(0).summary(1).as(love), reactions.type(HAHA).limit(0).summary(1).as(haha), reactions.type(WOW).limit(0).summary(1).as(wow), reactions.type(SAD).limit(0).summary(1).as(sad), reactions.type(ANGRY).limit(0).summary(1).as(angry), likes.limit(0).summary(true)
+message, from, created_time, updated_time,comments.limit(0).summary(1), reactions.limit(0).summary(1), shares
 ```
 
 **Column setup:**  
@@ -44,13 +44,7 @@ message
 from.name
 from.id
 created_time
-updated_time
 comments=comments.summary.total_count
 reactions=reactions.summary.total_count
-likes=like.summary.total_count
-love=love.summary.total_count
-haha=haha.summary.total_count
-wow=wow.summary.total_count
-sad=sad.summary.total_count
-angry=angry.summary.total_count
+shares=shares.count
 ```
