@@ -1,4 +1,4 @@
-# Workshop Data Collection
+# Workshop Automatic Data Collection
 
 This repository contains materials for the workshop. Before joining the workshop, please prepare yourself acccording to the following steps. In case you struggle with installing the software or packages, don't hesitate to contact us! We are looking forward to the workshop and to letting our computers collect data for us :)  
 
