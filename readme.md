@@ -3,7 +3,7 @@
 This repository contains materials for the workshop. Before joining the workshop, please prepare yourself acccording to the following steps. In case you struggle with installing the software or packages, don't hesitate to contact us! We are looking forward to the workshop and to letting our computers collect data for us :)  
 
 
-**Scripts**
+**Scripts**  
 Download the repository by clicking Code -> Download ZIP on the GitHub page. We will update the repository the day before the workshop, please make sure you have the latest version.
 
 **Basic software**
