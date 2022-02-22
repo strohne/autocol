@@ -1,5 +1,7 @@
 # Custom rules
 notebooks
+chromedriver
+geckodriver
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
