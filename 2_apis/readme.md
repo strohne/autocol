@@ -31,14 +31,18 @@ See the export settings below to prepare for the Python excercises.
 Use the following settings to fetch and export data for the Python excercises:
 
 **Preset:**
-Get Facebook posts
+Get Facebook posts with the following fields:
 
-**Fields parameter:**
 ```
 message, from, created_time, updated_time,comments.limit(0).summary(1), reactions.limit(0).summary(1), shares
 ```
 
-**Column setup:**  
+Get Faceboook comments with the following fields:
+```
+message, created_time, parent, comment_count, like_count
+```
+
+**Column setup**  
 ```
 message
 from.name
@@ -47,4 +51,6 @@ created_time
 comments=comments.summary.total_count
 reactions=reactions.summary.total_count
 shares=shares.count
+comment_likes=like_count
+comment_comments=comment_count
 ```
