@@ -9,15 +9,15 @@
 # pip install pandas
 
 
-# Embed libraries
+# Load packages
 import os
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
 
-# Set folder and filename for downloads
-# (create file if it doesn't exist yet)
+# Set directory and filename for downloads
+# (create directory if it doesn't exist yet)
 directory = "html"
 if not os.path.exists(directory):
     os.makedirs(directory)
@@ -32,9 +32,9 @@ url = path + searchterm
 
 
 # Download webpage
-# Get status code
 response = requests.get(url)  
-# If status code = 200, download webpage
+
+# If status code = 200, save webpage
 if response.status_code == 200:
     with open(filename, 'wb') as file:
         file.write(response.content)   
@@ -63,9 +63,11 @@ for article in articles:
     
     # Append items to result-list
     results.append(item)
+
     
 # Exercise: Scrape the URL of the article. 
-
+# Hint: Goto the documentation https://www.crummy.com/software/BeautifulSoup/bs4/doc/#attributes
+# and find out how to get attribute values
 
 # Convert results-list to dataframe
 results = pd.DataFrame(results)
