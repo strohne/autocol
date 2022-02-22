@@ -32,6 +32,7 @@ pip install requests
 pip install beautifulsoup4
 pip install lxml
 pip install pandas
+pip install matplotlib
 pip install selenium
 ```
 
