@@ -12,7 +12,5 @@ What is the HTML element that contains the text of the article?
 **Task 3**
 Which CSS selector can be used to select the element containing the article text? 
 
-# Documentation
-
-Beautiful Soup: 
-https://www.crummy.com/software/BeautifulSoup/bs4/doc/#
+**Task 4**
+Go to the Beautiful Soup documentation (https://www.crummy.com/software/BeautifulSoup/bs4/doc/#) and find out how to get attribute values!
