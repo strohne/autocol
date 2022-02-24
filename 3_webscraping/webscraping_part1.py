@@ -69,12 +69,12 @@ for article in articles:
 # Hint: Goto the documentation https://www.crummy.com/software/BeautifulSoup/bs4/doc/#attributes
 # and find out how to get attribute values
 
-# Convert results-list to dataframe
+# Convert results list to dataframe
 results = pd.DataFrame(results)
 
 # Display dataframe
 display(results)
 
 
-# Write dataframe as CSV-file
+# Write dataframe to CSV file
 results.to_csv('results.csv',sep=";",index=False)

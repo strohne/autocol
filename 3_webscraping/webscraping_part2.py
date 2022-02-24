@@ -80,8 +80,10 @@ def parseLinks(directory, filename):
 terms = ['Turkey','China','Germany','USA','Ucraine']
 path = "https://www.aljazeera.com/search/"
 
+# Create URLs
 urls = [path + term for term in terms]
 
+# Loop URLs
 result = []    
 
 for url in urls:
@@ -89,5 +91,9 @@ for url in urls:
     downloadUrl(url,directory,filename)
     result = result + parseHtml(directory,filename)
 
+# Convert to dataframe
 df = pd.DataFrame(result)
-df
+display(df)
+
+# Write dataframe to CSV file
+results.to_csv('results.csv',sep=";",index=False)
