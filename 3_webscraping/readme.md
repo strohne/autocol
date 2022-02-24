@@ -10,4 +10,7 @@ Open one article that you get from the search results (for example https://editi
 What is the HTML element that contains the text of the article?
 
 **Task 3**
-With which CSS-Selector can you select the element with the text of the article? 
+Which CSS selector can be used to select the element containing the article text? 
+
+**Task 4**
+Go to the Beautiful Soup documentation (https://www.crummy.com/software/BeautifulSoup/bs4/doc/#) and find out how to get attribute values!

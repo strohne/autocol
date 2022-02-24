@@ -15,6 +15,9 @@
 
 See the export settings below to prepare for the Python excercises.
 
+**Task:** Go to the Facebook API Graph reference and find out the field containing the number of shares: https://developers.facebook.com/docs/graph-api/reference/v13.0/page/feed 
+
+
 ## Exercise: Fetch comments of Facebook posts
 
 **Task:** Fetch and export the comments of Facebook posts. 
