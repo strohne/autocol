@@ -1,9 +1,10 @@
 # Browser automation using Selenium
 
 
-**Web drivers for selenium**
-- Download the latest ChromeDriver for your operating system from https://chromedriver.storage.googleapis.com/index.html?path=99.0.4844.35/
-- Download the latest GeckoDriver for your operating system from https://github.com/mozilla/geckodriver/releases
+Documentation: https://selenium-python.readthedocs.io/
 
-Unzip both ZIP-files and place the files into the folder `4_selenium/drivers`.
+**Task 1**
+Open https://google.com and find out how to locate the search input (hint: look at the attributes).
 
+**Task 2**
+Go to the "Locating Elements"-section in the selenium documentation and find out how to locate the Google search input.
