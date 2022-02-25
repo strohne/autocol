@@ -54,7 +54,7 @@ Day 1 - Working with APIs
 - 14:00 - 15:15 Practical session: Data wrangling with Python
 
 Day 2 - Webscraping
-- 10:00 - 11:30 Introduction to webscrapting
+- 10:00 - 11:30 Introduction to webscraping
 - 11:30 - 11:45 Break
 - 11:45 - 13:00 Practical session: Webscraping with Python
 - 13:00 - 14:00 Lunch break
