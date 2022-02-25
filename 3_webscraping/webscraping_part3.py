@@ -42,7 +42,14 @@ def downloadUrl(url, directory, filename):
             
     return filename
 
-def extractLinks(soup, baseurl):
+
+#
+# Crawling (extract links) ----
+#
+
+def extractLinks(filename, baseurl):
+    soup = BeautifulSoup(open(filename, encoding="utf-8"),'lxml')
+
     links = soup.find_all('a', href=True)    
     links = [link['href'] for link in links]
     links = set(links)                      
@@ -51,6 +58,7 @@ def extractLinks(soup, baseurl):
     links = [parse.urljoin(url,link) for link in links]    
     
     return links
+    
     
 #
 # Extract domains ----
@@ -119,5 +127,7 @@ filename = cleanFilename(url)
 downloadUrl(url, directory, filename)
 
 extractURLparts(url)
+
+extractLinks(directory + '/' + filename)
 
 extractText(directory + '/' + filename)

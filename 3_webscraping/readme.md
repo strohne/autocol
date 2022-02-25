@@ -1,5 +1,10 @@
 # Webscraping and Webcrawling
-The scripts contain examples and exercises for classical web scraping and for browser automated scraping with Selenium.
+The scripts contain examples and exercises for classical web scraping.
+
+- Scrape a single page: webscraping_part1.py 
+- Scrape multiple pages: webscraping_part2.py
+- Some useful functions and concepts: webscraping_part3.py
+- Regular expressions: regularexpressions.py
 
 # Exercises: Webscraping
 **Task 1**
@@ -14,3 +19,15 @@ Which CSS selector can be used to select the element containing the article text
 
 **Task 4**
 Go to the Beautiful Soup documentation (https://www.crummy.com/software/BeautifulSoup/bs4/doc/#) and find out how to get attribute values!
+
+# Exercises: Regular Expressions
+
+**Task 1** 
+Determine a regular expression to extract the date from the following string:
+
+`https://www.aljazeera.com/news/2021/12/16/what-you-should-know-about-the-conflict-between-russia-ukraine`
+
+**Task 2**
+For the following string, determine a regular expression to extract the part after the last underscore _: 
+
+`https___www_aljazeera_com_search_turkey`

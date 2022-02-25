@@ -57,3 +57,7 @@ shares=shares.count
 comment_likes=like_count
 comment_comments=comment_count
 ```
+
+## Read data with facepager
+
+The file `facebooknews.csv` contains exported data without text, as a backup in case you don't succeed with the Facepager export. To work with the backup dataset, in the corresponding script, you need to remove the "message" column.
