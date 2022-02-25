@@ -38,13 +38,6 @@ pip install selenium
 pip install webdriver_manager
 ```
 
-**Web drivers for selenium**
-(only as a fallback if the webdriver_manager package doesn't work)
-- Download the latest ChromeDriver for your operating system from https://chromedriver.storage.googleapis.com/index.html?path=99.0.4844.35/
-- Download the latest GeckoDriver for your operating system from https://github.com/mozilla/geckodriver/releases
-
-Unzip both ZIP-files and place the files into the folder `4_selenium/drivers`.
-
          
 **Accounts**  
 To follow the exercises you will need a Facebook account.
