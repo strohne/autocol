@@ -28,7 +28,8 @@ filename = directory + "/articles.html"
 # Construct URL from path and searchterm
 path = "https://www.aljazeera.com/search/"
 searchterm = "Turkey"
-url = path + searchterm
+parameters = "?sort=date"
+url = path + searchterm + parameters 
 
 
 # Download webpage

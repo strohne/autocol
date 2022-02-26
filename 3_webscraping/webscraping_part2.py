@@ -96,4 +96,4 @@ df = pd.DataFrame(result)
 display(df)
 
 # Write dataframe to CSV file
-results.to_csv('results.csv',sep=";",index=False)
+df.to_csv('results.csv',sep=";",index=False)

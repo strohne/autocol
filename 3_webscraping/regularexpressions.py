@@ -3,13 +3,10 @@
 import re
 
 text = "https://www.aljazeera.com/news/2021/12/16/what-you-should-know-about-the-conflict-between-russia-ukraine"
-re.findall(r"[0-9]+/[0-9]+/[0-9]+", text)
 
 # Exercise: Extract the search term...
 
-
 text = "https___www_aljazeera_com_search_turkey"
-re.findall(r"[a-z]+$", text)
 
 
 # Load scraped data
