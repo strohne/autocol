@@ -49,7 +49,7 @@ df.sort_values(by=['comments'], ascending=False)
 #
 
 # Histogram
-df.hist("reactions")
+df.hist("comments")
 
 # Scatter plot
 df.plot.scatter("shares","comments")
