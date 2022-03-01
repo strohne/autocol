@@ -5,7 +5,7 @@
 **Task 2:** Open the URLs in the browser and determine the elements (protocol, domain, path, parameters)! What are the different parts good for? 
 
 - URL1: https://twitter.com/AJStream/status/1458026680786857991/retweets
-- URL2: https://www.reddit.com/search/?q=University&t=year
+- URL2: https://www.reddit.com/search?q=University&t=year
 
 **Task 3:** Change the _path_ of the second URL so that it ends with `.json` and open the URL! What do you see?
 
