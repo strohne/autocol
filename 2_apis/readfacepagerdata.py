@@ -41,8 +41,12 @@ df.loc[:,'from.name'].value_counts()
 # Distribution of the metrics
 df.describe()
 
-# Order by comment count to get the post with the most comments
-df.sort_values(by=['comments'], ascending=False)
+# Order by share count
+df.sort_values(by=['shares'])
+
+# Exercise: order by comment count and find the post with the most comments
+# Hint: See the reference and find out how to sort ascending:
+# https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sort_values.html
 
 #
 # Plots ----
