@@ -60,7 +60,9 @@ for article in articles:
     # Extract title and text of articles 
     item = {}
     item['title'] = article.select_one('span').text.strip()
-    item['text'] = article.select_one('p').text.strip()
+    item['text'] = article.select_one('p').text.strip()    
+    item['url'] = article.select_one('a').get('href')
+    # second Option for Exercise: item['url'] = article.select_one('a')['href']
     
     # Append items to result-list
     results.append(item)
@@ -69,6 +71,7 @@ for article in articles:
 # Exercise: Scrape the URL of the article. 
 # Hint: Goto the documentation https://www.crummy.com/software/BeautifulSoup/bs4/doc/#attributes
 # and find out how to get attribute values
+
 
 # Convert results list to dataframe
 results = pd.DataFrame(results)

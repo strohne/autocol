@@ -22,6 +22,8 @@ Go to the Beautiful Soup documentation (https://www.crummy.com/software/Beautifu
 
 # Exercises: Regular Expressions
 
+Hint: You can look up the options for regular expressions in cheatsheets, e.g. https://cheatography.com/davechild/cheat-sheets/regular-expressions/ or https://www.rexegg.com/regex-quickstart.html 
+
 **Task 1** 
 Determine a regular expression to extract the date from the following string:
 

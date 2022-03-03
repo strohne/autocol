@@ -1,13 +1,12 @@
-# Exercise: Extract the date...
-
 import re
 
+# Exercise: Extract the date...
 text = "https://www.aljazeera.com/news/2021/12/16/what-you-should-know-about-the-conflict-between-russia-ukraine"
+re.findall(r"myfancyregex", text)
 
 # Exercise: Extract the search term...
-
 text = "https___www_aljazeera_com_search_turkey"
-
+re.findall(r"myfancyregex", text)
 
 # Load scraped data
 import pandas as pd
