@@ -85,16 +85,16 @@ parameters = "?sort=date"
 urls = [path + term + parameters for term in terms]
 
 # Loop URLs
-result = []    
+results = []    
 
 for url in urls:
     filename = cleanFilename(url)
     downloadUrl(url,directory,filename)
-    result = result + parseHtml(directory,filename)
+    results = results + parseHtml(directory,filename)
 
 # Convert to dataframe
-df = pd.DataFrame(result)
-display(df)
+results = pd.DataFrame(results)
+display(results)
 
 # Write dataframe to CSV file
-df.to_csv('results.csv',sep=";",index=False)
+results.to_csv('results.csv',sep=";",index=False)
