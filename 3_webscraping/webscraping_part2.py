@@ -77,7 +77,7 @@ def parseLinks(directory, filename):
     
     
 # Searchterms
-terms = ['Turkey','China','Germany','USA','Ucraine']
+terms = ['Turkey','China','Germany','USA','Ukraine']
 path = "https://www.aljazeera.com/search/"
 parameters = "?sort=date"
 
